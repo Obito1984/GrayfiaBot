@@ -1,3 +1,3 @@
-worker: python3 -m Bestie_Robot
-web: python3 -m Bestie_Robot
+worker: python3 -m GrayfiaBot
+web: python3 -m GrayfiaBot
 ps:scale worker=1
