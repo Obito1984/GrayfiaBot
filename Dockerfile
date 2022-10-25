@@ -68,9 +68,9 @@ RUN pip3 install --upgrade pip setuptools
 ENV PATH="/home/bot/bin:$PATH"
 
 # make directory
-RUN mkdir /Bestie_Robot/
-COPY . /Bestie_Robot
-WORKDIR /Bestie_Robot
+RUN mkdir /GrafiaBot/
+COPY . /GrayfiaBot
+WORKDIR /GrayfiaBot
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
