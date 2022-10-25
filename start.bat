@@ -1,4 +1,4 @@
 @echo off
-TITLE Bestie_Robot
+TITLE GrayfiaBot 
 :: Enables virtual env mode and then starts bestie
-env\scripts\activate.bat && py -m Bestie_Robot
+env\scripts\activate.bat && py -m GrayfiaBot 
