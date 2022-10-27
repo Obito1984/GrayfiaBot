@@ -6,9 +6,9 @@ from telegram.ext import CallbackContext
 from telegram.inline.inlinekeyboardbutton import InlineKeyboardButton
 from telegram.inline.inlinekeyboardmarkup import InlineKeyboardMarkup
 
-from Bestie_Robot import DEV_USERS, DRAGONS, dispatcher
-from Bestie_Robot.modules.helper_funcs.xyz import igrisxcallback as igriscallback
-from Bestie_Robot.modules.helper_funcs.xyz import igrisxcallback
+from GrayfiaBot import DEV_USERS, DRAGONS, dispatcher
+from GrayfiaBot .modules.helper_funcs.xyz import igrisxcallback as igriscallback
+from GrayfiaBot .modules.helper_funcs.xyz import igrisxcallback
 
 
 class AdminPerms(Enum):
