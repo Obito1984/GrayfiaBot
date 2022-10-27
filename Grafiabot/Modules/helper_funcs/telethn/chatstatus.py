@@ -1,5 +1,5 @@
-from Bestie_Robot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from Bestie_Robot import DRAGONS
+from GrayfiaBot .modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from GrayfiaBot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
