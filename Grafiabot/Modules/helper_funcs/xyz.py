@@ -1,4 +1,4 @@
-from Bestie_Robot.modules.disable import (
+from GrayfiaBot .modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
@@ -9,7 +9,7 @@ from telegram.ext import (
     InlineQueryHandler,
 )
 from telegram.ext.filters import BaseFilter
-from Bestie_Robot import dispatcher as d, LOGGER
+from GrayfiaBot import dispatcher as d, LOGGER
 from typing import Optional, Union, List
 
 
