@@ -1,6 +1,6 @@
-import Bestie_Robot.modules.sql.blacklistusers_sql as sql
-from Bestie_Robot import ALLOW_EXCL
-from Bestie_Robot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import GrayfiaBot .modules.sql.blacklistusers_sql as sql
+from GrayfiaBot import ALLOW_EXCL
+from GrayfiaBot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
