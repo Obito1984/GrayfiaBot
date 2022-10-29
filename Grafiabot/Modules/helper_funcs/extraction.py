@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from Bestie_Robot import LOGGER
-from Bestie_Robot.modules.users import get_user_id
+from GrayfiaBot import LOGGER
+from GrayfiaBot .modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
