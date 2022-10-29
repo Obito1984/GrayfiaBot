@@ -1,6 +1,6 @@
 import threading
 
-from Bestie_Robot.modules.sql import BASE, SESSION
+from GrayfiaBot .modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, UnicodeText
 from sqlalchemy.sql.sqltypes import BigInteger
 
