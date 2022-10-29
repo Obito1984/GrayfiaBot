@@ -1,6 +1,6 @@
 from typing import Dict, List
 
-from Bestie_Robot import NO_LOAD
+from GrayfiaBot import NO_LOAD
 from telegram import MAX_MESSAGE_LENGTH, Bot, InlineKeyboardButton, ParseMode
 from telegram.error import TelegramError
 
