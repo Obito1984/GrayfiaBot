@@ -1,0 +1,22 @@
+
+python
+import requests
+
+def get_anime_details(anime_id):
+    url = f"https://api.jikan.moe/v3/anime/{anime_id}"
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        anime_data = response.json()
+        return anime_data
+  
+
+# Example usage
+anime_id = 1  # Replace with the desired anime ID
+anime_details = get_anime_details(anime_id)
+
+if anime_details:
+    print(f"Title: {anime_details['title']}")
+    print(f"Synopsis: {anime_details['synopsis']}")
+    print(f"Episodes: {anime_details['episodes']}")
+    # Add more details as needed
